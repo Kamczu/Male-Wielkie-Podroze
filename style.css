@@ -3,15 +3,18 @@
 
 :root{
     font-size: 62.5%;
-	color: aqua;
+	font-family: advent
 }
 
 header{
-	
+	padding: 1rem;
+	text-align: center;
+	font-size: 3rem;
 }
 
 nav{
-	
+	display: block;
+	font-size: 2rem;
 }
 
 article{
@@ -25,7 +28,22 @@ aside{
 footer{
 	
 }
-
+div{
+	font-size: 4rem;
+	text-align: center
+}
+.box1{
+	font-family: Advent;
+}
+.box2{
+	font-family: Amiko;
+}
+.box3{
+	font-family: josefin;
+}
+.box4{
+	font-family: metropolis
+}
 
 
 
