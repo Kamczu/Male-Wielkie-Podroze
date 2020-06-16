@@ -1,51 +1,80 @@
-/* CSS Document */
 @font-face {
-	font-family: 'Advent';
-	src: url("Fonty/advent-pro/adventpro-bold.ttf"), 
-		 url("Fonty/advent-pro/adventpro-extralight.ttf"), 
-		 url("Fonty/advent-pro/adventpro-light.ttf"), 
-		 url("Fonty/advent-pro/adventpro-medium.ttf"), 
-		 url("Fonty/advent-pro/adventpro-regular.ttf"), 
-		 url("Fonty/advent-pro/adventpro-semibold.ttf"), 
-		 url("Fonty/advent-pro/adventpro-thin.ttf");
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
 }
-@font-face{
-	font-family: 'Amiko';
-	src: url("Fonty/amiko/Amiko-Bold.ttf"), 
-		 url("Fonty/amiko/Amiko-Regular.ttf"), 
-		 url("Fonty/amiko/Amiko-SemiBold.ttf");
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-	font-family: 'Josefin';
-	src: url("Fonty/josefin-sans/JosefinSans-Bold.ttf"), 
-		 url("Fonty/josefin-sans/JosefinSans-BoldItalic.ttf"), 
-		 url("Fonty/josefin-sans/JosefinSans-Italic.ttf"), 
-		 url("Fonty/josefin-sans/JosefinSans-Light.ttf"), 
-		 url("Fonty/josefin-sans/JosefinSans-LightItalic.ttf"), 
-		 url('Fonty/josefin-sans/JosefinSans-Regular.ttf'), 
-		 url("Fonty/josefin-sans/JosefinSans-SemiBold.ttf"), 
-		 url("Fonty/josefin-sans/JosefinSans-SemiBoldItalic.ttf"),
-		 url("Fonty/josefin-sans/JosefinSans-Thin.ttf"), 
-		 url("Fonty/josefin-sans/JosefinSans-ThinItalic.ttf");
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
 }
-@font-face{
-	font-family: 'Metropolis';
-	src: url("Fonty/metropolis/Metropolis-Black.otf"),
-         url("Fonty/metropolis/Metropolis-BlackItalic.otf"), 
-		 url("Fonty/metropolis/Metropolis-Bold.otf"),
-		 url("Fonty/metropolis/Metropolis-BoldItalic.otf"),
-		 url("Fonty/metropolis/Metropolis-ExtraBold.otf"),
-		 url("Fonty/metropolis/Metropolis-ExtraBoldItalic.otf"),
-		 url("Fonty/metropolis/Metropolis-ExtraLight.otf"),
-		 url("Fonty/metropolis/Metropolis-ExtraLightItalic.otf"),
-		 url("Fonty/metropolis/Metropolis-Light.otf"),
-		 url("Fonty/metropolis/Metropolis-LightItalic.otf"),
-		 url("Fonty/metropolis/Metropolis-Medium.otf"),
-		 url("Fonty/metropolis/Metropolis-MediumItalic.otf"),
-		 url("Fonty/metropolis/Metropolis-Regular.otf"),
-		 url("Fonty/metropolis/Metropolis-RegularItalic.otf"),
-		 url("Fonty/metropolis/Metropolis-SemiBold.otf"),
-		 url("Fonty/metropolis/Metropolis-SemiBoldItalic.otf"),
-		 url("Fonty/metropolis/Metropolis-Thin.otf"),
-		 url("Fonty/metropolis/Metropolis-ThinItalic.otf");
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('assets/fonty/JosefinSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

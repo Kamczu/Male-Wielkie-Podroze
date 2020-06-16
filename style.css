@@ -3,20 +3,70 @@
 
 :root{
     font-size: 62.5%;
-	font-family: advent
+	font-family: "josefin";
+	font-weight: bold;
+	font-style: italic;
 }
-
+.clear{
+	clear: both;
+}
+.odstep{
+	height: 10rem;
+}
+body{
+	height: 10000px;
+}
 header{
 	padding: 1rem;
 	text-align: center;
 	font-size: 3rem;
+	position: fixed;
+	z-index: 10;
+	width: 100vw;
 }
 
 nav{
 	display: block;
-	font-size: 2rem;
+	font-size: 2.5rem;
+	width: 100%;
+	background-color: aqua;
 }
-
+ul{
+	position: fixed;
+	top: 5rem;
+	width: 100vw;
+	background-color: blueviolet;
+	display: inline-block;
+}
+ul > li{
+	float: left;
+	padding: 1rem;
+	background: #FFE500;
+	height: 3rem;
+	border-right: .2rem dotted #555;
+}
+ul >:last-child{
+	border: none;
+} 
+ul > li > a{
+	display: block
+}
+ul > li > a:hover{
+	background-color: deepskyblue;
+	color: dodgerblue;
+}
+ul > li:hover ol{
+	display: block;
+}
+ol{
+	display: none;
+}
+ol > li{
+	margin: 1rem 0;
+}
+ol > li:hover {
+	
+}
 article{
 	
 }
@@ -27,22 +77,6 @@ aside{
 
 footer{
 	
-}
-div{
-	font-size: 4rem;
-	text-align: center
-}
-.box1{
-	font-family: Advent;
-}
-.box2{
-	font-family: Amiko;
-}
-.box3{
-	font-family: josefin;
-}
-.box4{
-	font-family: metropolis
 }
 
 
