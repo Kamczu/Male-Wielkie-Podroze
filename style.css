@@ -4,7 +4,7 @@
 :root{
     font-size: 62.5%;
 	font-family: 'josefin', 'sans-serif';
-	
+	color: #000;	
 }
 
 body{
@@ -32,7 +32,7 @@ nav{
 }
 
 ul{
-	background-color: blueviolet;
+	background: #FFE500;
 	display: inline-block;
 	width: 100%;
 }
@@ -45,19 +45,18 @@ ul > li{
 	padding: 1vw;
 	border-right: .2vw dotted #000;
 	width: 12.114285714285714285714285714286vw;
+	margin: 1rem 0;
 }
 ul > li:last-child{
 	border-right: none;
 }
 
 ul > li > a{
-	display: block
+	display: block;
 }
 
 ul > li:hover{
 	background-color: deepskyblue;
-	color: dodgerblue;
-
 }
 
 ul > li:hover ol{
@@ -73,7 +72,12 @@ ol > li{
 	padding: 1rem 0;
 	background-color: lime;
 	color: maroon;
-	border-top: .25rem dotted red;
+	border: .25rem solid red;
+	border-bottom: none;
+}
+
+ol > li:last-child{
+		border-bottom: .25rem solid red;
 }
 
 ol > li:hover{
