@@ -4,7 +4,8 @@
 :root{
     font-size: 62.5%;
 	font-family: 'josefin', 'sans-serif';
-	color: #000;	
+	color: #000;
+	box-sizing: border-box;
 }
 
 body{
@@ -24,6 +25,7 @@ header{
 	text-align: center;
 	font-size: 3.5rem;
 	background-color: #FFE500;
+	padding-top: 1rem;
 }
 
 nav{
@@ -45,8 +47,9 @@ ul > li{
 	padding: 1vw;
 	border-right: .2vw dotted #000;
 	width: 12.114285714285714285714285714286vw;
-	margin: 1rem 0;
+	margin: .8rem 0;
 }
+
 ul > li:last-child{
 	border-right: none;
 }
@@ -65,19 +68,19 @@ ul > li:hover ol{
 
 ol{
 	display: none;
-	background-color: lightcoral;
+	background-color: lime;
 }
 
 ol > li{
 	padding: 1rem 0;
 	background-color: lime;
 	color: maroon;
-	border: .25rem solid red;
-	border-bottom: none;
+	border-bottom: .25rem dotted red;
+	margin: 0 1rem;
 }
 
 ol > li:last-child{
-		border-bottom: .25rem solid red;
+		border-bottom: none;
 }
 
 ol > li:hover{
@@ -99,12 +102,9 @@ h1{
 	padding: 1%;
 }
 
-.sss{
-	clear: both;
-	font-size: 2rem;
-	width: 10rem;
-	height: 10rem;
-	background-color: teal;
+section{
+	background-color: blue;
+	padding: 1rem;
 }
 
 footer{
@@ -114,6 +114,6 @@ footer{
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	padding: .5rem;
-	border-top-left-radius: 1rem;
+	padding: .7rem;
+	border-top-left-radius: 1.4rem;
 }
