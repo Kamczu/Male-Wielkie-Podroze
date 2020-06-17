@@ -4,81 +4,112 @@
 :root{
     font-size: 62.5%;
 	font-family: 'josefin', 'sans-serif';
+	
 }
+
+body{
+	height: 1000px;
+}
+
 .clear{
 	clear: both;
 }
-.odstep{
-	height: 10rem;
+
+.head{
+	width: 100vw;	
 }
-body{
-	height: 10px;
-}
+
 header{
-	padding: 1rem;
+	padding: .5rem;
 	text-align: center;
-	font-size: 3rem;
-	position: fixed;
-	z-index: 10;
-	width: 100vw;
+	font-size: 3.5rem;
+	background-color: #FFE500;
 }
 
 nav{
 	display: block;
-	font-size: 2.5rem;
-	background-color: aqua;
-	width: 100vw;
+	font-size: 2.3rem;
 }
-ul{
-	position: fixed;
 
-	top: 5rem;
+ul{
 	background-color: blueviolet;
 	display: inline-block;
 	width: 100%;
 }
+
 ul > li{
 	text-align: center;
 	float: left;
 	background: #FFE500;
-	height: 3rem;
-	padding: .5rem 0;
-	border-right: 2px dotted #555;
-	width: 14.28345013477088948787061994609136%;
+	height: 2.7rem;
+	padding: 1vw;
+	border-right: .2vw dotted #000;
+	width: 12.114285714285714285714285714286vw;
 }
-ul >:last-child{
-	border: none;
-} 
+ul > li:last-child{
+	border-right: none;
+}
+
 ul > li > a{
 	display: block
 }
-ul > li > a:hover{
+
+ul > li:hover{
 	background-color: deepskyblue;
 	color: dodgerblue;
+
 }
+
 ul > li:hover ol{
 	display: block;
 }
+
 ol{
 	display: none;
-}
-ol > li{
-	margin: 1rem 0;
-}
-ol > li:hover {
-	
-}
-article{
-	
+	background-color: lightcoral;
 }
 
-aside{
-	
+ol > li{
+	padding: 1rem 0;
+	background-color: lime;
+	color: maroon;
+	border-top: .25rem dotted red;
+}
+
+ol > li:hover{
+	background-color: mediumvioletred;
+	color: orangered;
+}
+
+article{
+	margin: 1%;
+	width: 70%;
+	background-color: darkgreen;
+	float: left;
+	padding: 1%;
+}
+
+h1{
+	font-size: 2rem;
+	background-color: firebrick;
+	padding: 1%;
+}
+
+.sss{
+	clear: both;
+	font-size: 2rem;
+	width: 10rem;
+	height: 10rem;
+	background-color: teal;
 }
 
 footer{
-	
+	background-color: indigo;
+	font-size: 1.3rem;
+	color: palegreen;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: .5rem;
+	border-top-left-radius: 1rem;
 }
-
-
-
