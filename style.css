@@ -146,9 +146,9 @@ p >a:hover{
 	
 }
 footer{
-	background-color: indigo;
+	background-color: #000000;
 	font-size: 1.3rem;
-	color: palegreen;
+	color: #fffa66;
 	position: fixed;
 	bottom: 0;
 	right: 0;
