@@ -6,6 +6,7 @@
 	font-family: 'josefin', 'sans-serif';
 	color: #000;
 	box-sizing: border-box;
+	background-color: #FFFCF7;
 }
 
 body{
@@ -34,7 +35,7 @@ nav{
 }
 
 ul{
-	background: #FFE500;
+	background: #fae316;
 	display: inline-block;
 	width: 100%;
 }
@@ -42,7 +43,7 @@ ul{
 ul > li{
 	text-align: center;
 	float: left;
-	background: #FFE500;
+	background: #fae316;
 	height: 2.7rem;
 	padding: 1vw;
 	border-right: .2vw dotted #000;
@@ -69,16 +70,18 @@ ul > li:hover ol{
 
 ol{
 	display: none;
-	background-color: lime;
+	background-color: #fae316;
 	padding: .7rem 0 ;
+	z-index: 9999;
 }
 
 ol > li{
 	padding: 1rem 0;
-	background-color: lime;
-	color: maroon;
-	border-bottom: .25rem dotted red;
+	background-color: #fae316;
+	color: #000;
+	border-bottom: .25rem dotted #000;
 	margin: 0 .7rem;
+	z-index: 9999;
 }
 
 ol > li:last-child{
@@ -86,21 +89,21 @@ ol > li:last-child{
 }
 
 ol > li:hover{
-	background-color: mediumvioletred;
-	color: orangered;
+	background-color: #FFFA66;
+	color: #000000;
 }
 
 article{
 	margin: 1%;
-	width: 70%;
-	background-color: darkgreen;
+	width: 74%;
 	float: left;
 	padding: 1%;
+	background-color: #111;
+	color: #eee;
 }
 
 h1{
 	font-size: 2rem;
-	background-color: firebrick;
 	padding: 1%;
 }
 .border{
@@ -108,17 +111,15 @@ h1{
 	margin: .7rem 0;
 }
 section{
-	background-color: blue;
 	padding: 1rem;
 	font-size: 2rem;
 }
 aside{
 	position: fixed;
 	z-index: 100;
-	background-color: cornflowerblue;
 	padding: 1vw;
-	top: 15rem;
-	right: 1vw;	
+	top: 40vh;
+	right: .6vw;	
 }
 h2{
 	font-size: 2.5rem;
