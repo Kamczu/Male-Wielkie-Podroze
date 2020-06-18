@@ -43,12 +43,14 @@ ul{
 ul > li{
 	text-align: center;
 	float: left;
-	background: #fae316;
+/*	background: #fae316;*/
+	background-color: aqua;
 	height: 2.7rem;
 	padding: 1vw;
 	border-right: .2vw dotted #000;
 	width: 12.114285714285714285714285714286vw;
 	margin: .8rem 0;
+	border-radius: 10rem
 }
 
 ul > li:last-child{
