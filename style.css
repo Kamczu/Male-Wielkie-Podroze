@@ -98,8 +98,8 @@ article{
 	width: 74%;
 	float: left;
 	padding: 1%;
-	background-color: #111;
-	color: #eee;
+	background-color: #000;
+	color: beige;
 }
 
 h1{
@@ -107,7 +107,7 @@ h1{
 	padding: 1%;
 }
 .border{
-	border: .18rem dashed #000;
+	border: .18rem dashed #FFFFFF;
 	margin: .7rem 0;
 }
 section{
@@ -119,7 +119,10 @@ aside{
 	z-index: 100;
 	padding: 1vw;
 	top: 40vh;
-	right: .6vw;	
+	right: 0;
+	background-color: cadetblue;
+	border-bottom-left-radius: 2rem;
+	border-top-left-radius: 2rem;
 }
 h2{
 	font-size: 2.5rem;
