@@ -128,6 +128,12 @@ section > span{
 .img > img{
 	width: 25vw;
 }
+.filmik{
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	
+}
 aside{
 	position: fixed;
 	z-index: 100;
