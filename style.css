@@ -103,7 +103,10 @@ h1{
 	background-color: firebrick;
 	padding: 1%;
 }
-
+.border{
+	border: .18rem dashed #000;
+	margin: .7rem 0;
+}
 section{
 	background-color: blue;
 	padding: 1rem;
