@@ -99,36 +99,44 @@ article{
 }
 
 h1{
-	font-size: 2rem;
+	font-size: 2.7rem;
 	padding: 1%;
+	font-weight: bold;
 }
+
 .border{
 	border: .18rem dashed #000000;
 	margin: .7rem 0;
 }
+
 section{
 	padding: 1rem;
 	font-size: 2rem;
 }
+
 section > span{
 	font-size: 2.3rem;
 	font-weight: bold;
 	margin-bottom: 1rem;
 }
+
 .img{
 	text-align: center;
 	padding-top: 2rem;
 	padding-bottom: 4rem;
 }
+
 .img > img{
 	width: 30vw;
 }
+
 .filmik{
 	text-align: center;
 	padding-top: 2rem;
 	padding-bottom: 3rem;
 	
 }
+
 aside{
 	position: fixed;
 	z-index: 100;
@@ -138,6 +146,7 @@ aside{
 	border: .5rem dotted #000;
 	border-radius: 2rem;
 }
+
 h2{
 	font-size: 2.5rem;
 }
@@ -159,6 +168,7 @@ form{
 	float: left;
 	width: 25rem;
 }
+
 input, textarea{
 	width: 35rem;
 	background: none;
